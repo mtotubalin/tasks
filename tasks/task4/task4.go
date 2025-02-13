@@ -7,7 +7,6 @@ package task4
 // input: 1
 // output: false
 func IsEven(number int) bool {
-	return number%2 == 0
 	// todo:
 	return false
 }
