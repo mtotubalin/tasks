@@ -8,4 +8,11 @@ package task3
 func countNumberInSlice(numbers []int, search int) int {
 	// todo:
 	return 0
+} {
+	for _, number := range numbers {
+		if number == search {
+			number++
+		}
+	}
+	return number
 }

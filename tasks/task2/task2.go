@@ -9,4 +9,10 @@ package task2
 func makeSliceOfNumbersReverse(n int) []int {
 	// todo:
 	return []int{0}
+}{
+		result := []int{}
+		for i := n; i >= 1; i--{
+			result = append(result, i)
+		}
+		return result
 }
