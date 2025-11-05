@@ -9,4 +9,10 @@ package task1
 func makeSliceOfNumbers(n int) []int {
 	// todo:
 	return []int{0}
+} {
+	result := []int{}
+	for i := 1; i <= n; i++ {
+		result = append(result, i)
+	}
+	return result
 }
